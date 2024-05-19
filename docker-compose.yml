@@ -1,0 +1,8 @@
+ version: "3.3"
+
+ services:
+   api-students:
+     build: ./api-user
+     image: leonelcd/api-user
+     ports:
+       - 8000:8000
